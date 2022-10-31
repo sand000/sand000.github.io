@@ -339,7 +339,7 @@ header .fa {
 .section-3 {
     width: 100%;
     height: auto;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -691,6 +691,16 @@ header .fa {
     color: #000;
     margin-top: -100px;
     padding: 100px 0;
+    /* border: 1px solid red; */
+}
+
+.section-6 #gitImg > img{
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    width: 600px;
+    margin: auto;
+    margin-left: 150px;
+    text-align: center;
 }
 .section-6 h1{
     color:  #6c6a6a;
