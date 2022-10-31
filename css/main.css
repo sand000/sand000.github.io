@@ -4,6 +4,10 @@
     margin: auto;
 } */
 
+.githubStats{
+    /* border: 1px solid red; */
+}
+
 #activityTracker{
     /* margin-left: 7px;  */
     font-weight: bold;
@@ -13,7 +17,7 @@
     text-align: center;
    }
    
-   #githubStats{
+   .container h3{
     margin: auto;
      margin-left: 7px; 
     font-weight: bold;
@@ -24,6 +28,7 @@
    }
 
    #gitImg{
+    /* border:1px solid red; */
     display: block;
     width:80%;
     margin:auto;
@@ -67,6 +72,8 @@ h5,
 h6 {
     color: #222;
     font-weight: 600;
+  
+    /* border:1px solid red; */
     line-height: 1.3;
 }
 
@@ -289,6 +296,12 @@ header .fa {
     text-align: center;
 }
 
+.section-2 h1 {
+    color: #737373;
+    /* text-align: left; */
+}
+
+
 .section-2 h3 {
     font-size: 34px;
     text-transform: uppercase;
@@ -326,7 +339,7 @@ header .fa {
 .section-3 {
     width: 100%;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -348,8 +361,9 @@ header .fa {
 
 .section-3 figure .out-sideimg {
     width: 100%;
-    height: 670px;
+    height: 600px;
     object-fit: cover;
+    margin-left: 50px;
 }
 
 .section-3 figure .inner-img {
@@ -396,23 +410,26 @@ header .fa {
     width: 100%;
     height: auto;
     padding-top: 75px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .section-4 h3 {
+    /* border:1px solid red; */
     color: #737373;
     font-size: 38px;
     line-height: 60px;
     padding-bottom: 40px;
     margin-top: -13px;
+    margin-left: 500px;
+    text-align: center;
 }
 
 .section-4 .box-1 h2 {
     color: #000;
     font-size: 28px;
     font-weight: 400;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .section-4 h3 span {
@@ -423,7 +440,7 @@ header .fa {
     color: #fff;
     padding: 12px 35px;
     letter-spacing: 1px;
-    border-radius: 0;
+    border-radius: 10;
     background-color: #b4dc2d;
     border-color: #b4dc2d;
     text-transform: uppercase;
@@ -432,10 +449,10 @@ header .fa {
 .section-4 .btn-success {
     color: #fff;
     font-size: 18px;
-    padding: 5px 20px;
+    padding: 5px 10px;
     background-color: #b4dc2d;
     border-color: #b4dc2d;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
 .section-4 .btn-success:hover,
@@ -458,6 +475,8 @@ header .fa {
 }
 
 .section-4 .box-1 img {
+    border:1.5px solid #dddada;
+    border-radius: 2%;
     width: 100%;
     height: 580px;
     object-fit: cover;
@@ -471,8 +490,10 @@ header .fa {
     width: 100%;
     height: 265px;
     object-fit:fill;
-    /* object-fit: cover; */
-    padding-left: 30px;
+    object-fit: cover;
+    /* padding-left: 30px; */
+    border:1.5px solid #dddada;
+    border-radius: 2%;
 }
 
 .section-4 .box-2 figure,
@@ -484,14 +505,16 @@ header .fa {
 .section-4 h4 {
     font-size: 24px;
     font-weight: 400;
-    padding-bottom: 10px;
+    /* border:1px solid red */
+    /* padding-bottom: 10px; */
 }
 
 .section-4 h5 {
     font-size: 16px;
     font-weight: 300;
-    padding-bottom: 30px;
-    padding-right: 40px;
+    /* border:1px solid black; */
+    /* padding-bottom: 30px; */
+    /* padding-right: 40px; */
     line-height: 25px;
 }
 
@@ -666,12 +689,20 @@ header .fa {
     width: 100%;
     height: auto;
     color: #000;
+    margin-top: -100px;
     padding: 100px 0;
+}
+.section-6 h1{
+    color:  #6c6a6a;
+    margin-bottom: 50px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 .section-6 .main {
-    border: 1px solid #c4c4c4;
+    /* border: 1px solid #c4c4c4; */
     padding: 60px 0;
+    margin-bottom: -200px;
 }
 
 .section-6 form {
@@ -685,6 +716,9 @@ header .fa {
     line-height: 67px;
     padding-right: 18px;
     text-align: right;
+    margin: auto;
+    text-align: center;
+   
 }
 
 .section-6 .form-control {
@@ -885,10 +919,15 @@ header .fa {
     margin-bottom: 200px;
 }
 
+.about-us > img{
+    /* border:1px solid red; */
+}
+
 #about-us .image {
+    /* border:1px solid red; */
     float: left;
-    width: 478px;
-    height: 394px;
+    width: 188px;
+    height: 204px;
     shape-margin: 20px;
     margin-right: 50px;
     margin-bottom: 52px;
@@ -902,26 +941,31 @@ header .fa {
 }
 
 #about-us p {
+    /* border:1px solid red; */
     margin: 0;
+    margin-top: 30px;
     color: #969696;
     font-size: 15px;
     line-height: 25px;
     letter-spacing: 0.5px;
     text-align: left;
     font-weight: 400;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 #about-us .image {
+    /* border:1px solid red; */
+
     float: left;
-    width: 547px;
-    height: 458px;
-    shape-margin: 20px;
+    width: 400px;
+    height: 358px;
+    /* shape-margin: 20px; */
     margin-right: 50px;
     margin-bottom: 40px;
 }
 
 #about-us .thumbnail {
+    
     padding: 0;
     border: none;
     border-radius: 0;
@@ -933,8 +977,9 @@ header .fa {
 =============================*/
 
 #contact {
+    margin:auto;
     padding-top: 0;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     text-align: center;
     margin-top: -120px;
     border-bottom: 1px solid #b2b2b2;
@@ -949,6 +994,14 @@ header .fa {
 }
 
 .py-5 {
+    /* border:1px solid red; */
+    
+    width: 755px;
+}
+
+.py-5 .container {
+    /* border:1px solid red; */
+    
     width: 755px;
 }
 
@@ -1932,6 +1985,7 @@ textarea.form-control {
         font-size: 20px;
     }
     .section-3 figure .out-sideimg {
+        margin-top: 100px;
         height: 550px;
     }
     .section-3 figure .inner-img {
@@ -2013,6 +2067,46 @@ textarea.form-control {
     .section-6 {
         padding: 50px 0;
     }
+
+    .section-6 .container h1{
+        margin-top: 70px;
+      /* border:1px solid red */
+    }
+
+    .section-6 #githubStats{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .section-6{
+        /* border: 1px solid red; */
+    }
+
+    .section-6 #gitImg {
+        /* border: 1px solid red; */
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .section-6 #gitImg img{
+        /* border: 1px solid red; */
+        margin: auto;
+        width:700px;
+    }
+
+    .py-5{
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: -20px;
+        /* border : 1px solid rgb(33, 32, 32) */
+    }
+    .py-5 .container{
+        margin: auto;
+        width: 270px;
+      /* border : 1px solid rgb(231, 27, 27) */
+    }
+
+
     .section-6 .heading h3 {
         font-size: 24px;
         line-height: 51px;
@@ -2056,15 +2150,19 @@ textarea.form-control {
     #about-us {
         padding-top: 30px;
     }
-    #about-us .image {
-        width: 400px;
-        height: 330px;
+    #about-us img {
+        /* border:1px solid red; */
+        /* width: 400px;
+        height: 330px; */
     }
     #about-us p {
+        /* border:1px solid red; */
         font-size: 12px;
         margin-bottom: 30px;
     }
     #about-us h3 {
+        /* border:1px solid red; */
+        
         font-size: 28px;
         padding-bottom: 25px;
     }
@@ -2272,6 +2370,11 @@ textarea.form-control {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .section-3{
+        /* border: 1px solid red; */
+
+    }
     .section-3 figure .inner-img {
         width: 50%;
         height: 300px;
@@ -2279,7 +2382,10 @@ textarea.form-control {
     }
     .section-3 figure .out-sideimg {
         height: 300px;
-        width: 50%;
+        width: 60%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-left: -400px;
         float: right;
     }
     .section-3 h2 span {
@@ -2291,9 +2397,12 @@ textarea.form-control {
         margin-top: 0;
     }
     .section-4 h3 {
-        font-size: 25px;
+        /* font-size: 25px; */
         line-height: 35px;
         padding-bottom: 20px;
+        margin: auto;
+        margin-left: 200px;
+        /* border: 1px solid red; */
     }
     .section-4 {
         padding-top: 30px;
@@ -2336,13 +2445,74 @@ textarea.form-control {
     .section-6 .btn-info {
         width: 100%;
     }
-    .section-6 {
+    .section-6  {
+        margin-top: 50px;
         padding: 30px 0;
+        margin-bottom: 100px;
     }
+
+    .section-6 .container{
+        /* border:1px solid red; */
+        margin-bottom: 100px; 
+    }
+
+    .section-6 #githubStats{
+        margin-top: -50px;
+        text-align: center;
+    }
+    .section-6{
+        /* border: 1px solid red; */
+    }
+    .section-6 #gitImg img{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin-left: -50px;
+        width:500px;
+    }
+
+    .section-6 #activityTracker{
+        width: 100%;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+    .section-6 #cal{
+        /* border: 1px solid red; */
+        margin: auto;
+        height: max-content;
+        width: 100%;
+        margin-left: -110px;
+        text-align: start;
+        /* display: flex;
+        flex-direction: column;
+        text-align: center; */
+        /* max-width: fit-content; */
+    }
+    .section-6 .calendar{
+        /* border: 1px solid rgb(186, 172, 11); */
+        text-align: center;
+        align-items: center;
+        /* width:300px; */
+        max-width: fit-content;
+    }
+    
+    .py-5{
+        margin: auto;
+        margin-top: -60px;
+        text-align: center;
+        margin-bottom: -20px;
+        /* border : 1px solid rgb(33, 32, 32) */
+    }
+    .py-5 .container{
+        margin: auto;
+        width: 270px;
+      /* border : 1px solid rgb(231, 27, 27) */
+    }
+
     .page-footer .box-1 {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    
     .page-footer .box-2,
     .page-footer .box-3,
     .page-footer .box-4 {
@@ -2373,7 +2543,8 @@ textarea.form-control {
     #about-us h3 {
         font-size: 24px;
     }
-    #contact p {
+  
+    #contact p {        
         line-height: 20px;
     }
     #contact {
@@ -2468,7 +2639,7 @@ textarea.form-control {
     .navbar-dark .navbar-toggler {
         position: absolute;
         right: 20px;
-        top: -65px;
+        top: -45px;
     }
     header .box-1 {
         text-align: left !important;
@@ -2553,7 +2724,13 @@ textarea.form-control {
     .section-3 ul > li {
         font-size: 16px;
     }
-    .section-3 figure .out-sideimg,
+    .section-3 figure .out-sideimg{
+        height: 300px;
+        width: 80%;
+        margin: auto;
+        /* border:1px solid red; */
+        margin-left: -50px;
+    }
     .section-3 figure .inner-img,
     .section-4 .box-2 img,
     .section-4 .box-4 img,
@@ -2626,6 +2803,9 @@ textarea.form-control {
     .section-4 .box-4 figure {
         margin: 0 0 30px;
     }
+
+
+   
     .section-4 .box-1 h2 {
         font-size: 18px;
         padding-bottom: 0;
@@ -2645,6 +2825,10 @@ textarea.form-control {
     .section-4 .btn-success {
         font-size: 12px;
         padding: 5px 15px;
+    }
+
+    .section-6{
+        margin-bottom: 170px;
     }
     .section-6 .heading h3 {
         font-size: 22px;
@@ -2692,6 +2876,84 @@ textarea.form-control {
     .section-6 ::-webkit-input-placeholder {
         font-size: 12px;
     }
+
+    /*extra css  */
+    .section-6 #githubStats{
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    .section-6{
+        /* border: 1px solid red; */
+        /* display: block;
+        margin: auto; */
+    }
+    .section-6 #gitImg img{
+        /* border: 1px solid red; */
+        text-align: center;
+        margin: auto;
+        width:330px;
+        
+    }
+
+    .section-6 #activityTracker{
+        width: 200px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .section-6 #cal{
+        /* border: 1px solid red; */
+        margin: auto;
+        height: max-content;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: fit-content;
+    }
+
+    .section-6 .calendar{
+        /* border: 1px solid rgb(186, 172, 11); */
+        text-align: center;
+        align-items: center;
+        width:300px;
+        max-width: fit-content;
+    }
+
+
+    .py-5{
+        margin: auto;
+        margin-top: -150px;
+        text-align: center;
+        margin-bottom: -20px;
+
+        /* border : 1px solid rgb(33, 32, 32) */
+    }
+
+    .py-5 .container{
+        margin: auto;
+        width: 270px;
+      /* border : 1px solid rgb(231, 27, 27) */
+    }
+
+    .mail{
+        margin-top: -20px;
+        height: 15px;
+        margin-bottom: 10px;
+      /* border : 1px solid rgb(240, 234, 234) */
+
+    }
+
+    .mob{
+        margin-top: 60px;
+        /* height: 20px; */
+      /* border : 1px solid rgb(232, 20, 20) */
+
+    }
+
+    /* extra css */
+
     .footer-copyright p {
         padding: 14px 0;
         font-size: 11px;
@@ -2742,9 +3004,90 @@ textarea.form-control {
 }
 
 @media (max-width: 375px) {
-    .section-6 .heading h3 {
+
+    .navbar-dark .navbar-toggler {
+        position: absolute;
+        right: 20px;
+        top: -45px;
+    }
+    .section-6 .heading h1 {
         font-size: 18px;
     }
+
+    /* extra css */
+    .section-6 #githubStats{
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    .section-6{
+        /* border: 1px solid red; */
+    }
+    .section-6 #gitImg img{
+        /* border: 1px solid red; */
+        text-align: center;
+        width:300px;
+        
+    }
+
+    .section-6 #activityTracker{
+        width: 200px;
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .section-6 #cal{
+        /* border: 1px solid red; */
+        margin: auto;
+        height: max-content;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: fit-content;
+    }
+
+    .section-6 .calendar{
+        /* border: 1px solid rgb(186, 172, 11); */
+        text-align: center;
+        align-items: center;
+        width:300px;
+        max-width: fit-content;
+    }
+
+
+    .py-5{
+        margin: auto;
+        margin-top: -150px;
+        text-align: center;
+        margin-bottom: -20px;
+
+        /* border : 1px solid rgb(33, 32, 32) */
+    }
+
+    .py-5 .container{
+        margin: auto;
+        width: 270px;
+      /* border : 1px solid rgb(231, 27, 27) */
+    }
+
+    .mail{
+        margin-top: -20px;
+        height: 15px;
+        margin-bottom: 10px;
+      /* border : 1px solid rgb(240, 234, 234) */
+
+    }
+
+    .mob{
+        margin-top: 60px;
+        /* height: 20px; */
+      /* border : 1px solid rgb(232, 20, 20) */
+
+    }
+
+/* extra css */
+
     .page-footer ul > li a {
         color: #707070;
         font-size: 10px;
@@ -2769,4 +3112,5 @@ textarea.form-control {
     .jumbotron h1 {
         font-size: 23px;
     }
+
 }
