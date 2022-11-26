@@ -735,12 +735,13 @@ header .fa {
 
 .section-6 #gitImg > img{
   
-    margin-left: 100px;
+    /* margin-left: 100px; */
     height: 220px;
     /* width: max-content; */
     margin: auto;
     align-self: center;
-    margin-left: 100px;
+    /* color: green; */
+    /* margin-left: 100px; */
     text-align: center;
 }
 .section-6 h1{
