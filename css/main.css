@@ -2739,6 +2739,7 @@ textarea.form-control {
         top: -45px;
     }
     header .box-1 {
+
         text-align: left !important;
     }
     .navbar-expand-sm > .container {
@@ -2748,15 +2749,19 @@ textarea.form-control {
         border-right: none;
     }
     header {
-        padding: 15px 0;
+        padding: 0px 0px ;
     }
     .navbar-dark .navbar-toggler {
         color: rgb(0, 0, 0);
         border-color: rgba(255, 255, 255, 0.1);
         background: #b4dc2d;
+        /* margin-top: -50px; */
+        position: sticky;
+        
     }
     .navbar-toggler {
         padding: .15rem .25rem;
+        
     }
     header {
         text-align: center;
