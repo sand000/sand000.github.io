@@ -2569,10 +2569,7 @@ textarea.form-control {
         width: 100%;
         margin-left: -7px;
         text-align: start;
-        /* display: flex;
-        flex-direction: column;
-        text-align: center; */
-        /* max-width: fit-content; */
+        
     }
     .section-6 .calendar{
         /* border: 1px solid rgb(231, 9, 76); */
@@ -3042,15 +3039,14 @@ textarea.form-control {
         width: 350px;
         flex-direction: row;
         text-align: center;
-        /* max-width: fit-content; */
+        max-width: fit-content;
+        display: block;
     }
 
     .section-6 .calendar{
         border: 1px solid rgb(7, 7, 7);
-        text-align: center;
-        align-items: center;
-        width: 100%;
-        /* max-width: fit-content; */
+        width: 30%;
+        
     }
 
 
@@ -3209,7 +3205,7 @@ textarea.form-control {
     }
 
     .section-6 #cal{
-        /* border: 1px solid red; */
+        /* b order: 1px solid red; */
         margin: auto;
         height: max-content;
         width: 300px;
