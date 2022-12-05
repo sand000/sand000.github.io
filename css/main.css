@@ -2802,6 +2802,9 @@ textarea.form-control {
         font-size: 21px;
         line-height: 25px;
     }
+    .section-2 h1{
+        font-size: 21px;
+    }
     .section-5 .img-fluid {
         height: 250px;
     }
@@ -2987,6 +2990,11 @@ textarea.form-control {
         font-size: 21px;
         line-height: 30px;
     }
+
+    .section-3 h1{
+        font-size: 21px;
+        text-align: center;
+    }
     .section-3 h2 span {
         display: block;
     }
@@ -3009,6 +3017,7 @@ textarea.form-control {
     /*extra css  */
     .section-6 #githubStats{
         margin-top: -50px;
+        font-size: 21px;
         text-align: center;
     }
 
@@ -3027,6 +3036,7 @@ textarea.form-control {
 
     .section-6 #activityTracker{
         width: 200px;
+        font-size: 21px;
         /* border: 1px solid red; */
         text-align: center;
     }
@@ -3051,15 +3061,20 @@ textarea.form-control {
 
 
     .py-5{
+        
         margin: auto;
         margin-top: -150px;
         text-align: center;
         margin-bottom: -20px;
 
-        /* border : 1px solid rgb(33, 32, 32) */
+        /* border : 1px solid rgb(185, 8, 8) */
     }
 
+    #contact h1{
+        font-size: 21px;
+    }
     .py-5 .container{
+        
         margin: auto;
         width: 270px;
       /* border : 1px solid rgb(231, 27, 27) */
