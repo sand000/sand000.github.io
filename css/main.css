@@ -2737,6 +2737,8 @@ textarea.form-control {
         position: absolute;
         right: 20px;
         top: -45px;
+        border:1px solid red;
+
     }
     header .box-1 {
 
@@ -2749,13 +2751,15 @@ textarea.form-control {
         border-right: none;
     }
     header {
-        padding: 0px 0px ;
+        border:1px solid red;
+        margin-top: -90px;
+        /* padding: 1px 1px ; */
     }
     .navbar-dark .navbar-toggler {
         color: rgb(0, 0, 0);
         border-color: rgba(255, 255, 255, 0.1);
         background: #b4dc2d;
-        /* margin-top: -50px; */
+               /* border:1px solid red; */
         position: sticky;
         
     }
