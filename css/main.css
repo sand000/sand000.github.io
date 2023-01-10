@@ -2753,7 +2753,7 @@ textarea.form-control {
     header {
         border:1px solid red;
         margin-top: -90px;
-        /* padding: 1px 1px ; */
+        padding: 0px 0px ;
     }
     .navbar-dark .navbar-toggler {
         color: rgb(0, 0, 0);

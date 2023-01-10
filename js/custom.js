@@ -16,9 +16,9 @@
 })).observe(document.querySelector('.trigger'));
 
 
-(function () {
-    emailjs.init("gnUT8YhD8YBqfnlgL");
-})();
+// (function () {
+//     emailjs.init("gnUT8YhD8YBqfnlgL");
+// })();
 
 function sendMail(e) {
     e.preventDefault();
@@ -26,12 +26,15 @@ function sendMail(e) {
     let userEmail = document.getElementById("email").value;
     let userMessage = document.getElementById("message").value;
 
-    // console.log(fullName)
+    console.log(userMessage)
         var contactParams = {
             from_name: fullName,
             from_email: userEmail,
             message: userMessage
         };
 
-        emailjs.send('service_w1xbnhe', 'template_p650tv8', contactParams).then(function (res) {})
+        emailjs.send('service_cwjct2m', 'template_p650tv8', contactParams)
+        .then(function (res) {
+            console.log("success", res.status)
+        })
 }
