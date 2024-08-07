@@ -8,11 +8,11 @@ import Skills from "../components/Skills";
 function AllRoutes() {
   return (
     <Routes>
-      <Route path="/shantilal" element={<Home />} />
-      <Route path="/shantilal/about" element={<About />} />
-      <Route path="/shantilal/projects" element={<Projects />} />
-      <Route path="/shantilal/contact" element={<Contact />} />
-      <Route path="/shantilal/skills" element={<Skills />} />
+      <Route path="/sandhya" element={<Home />} />
+      <Route path="/sandhya/about" element={<About />} />
+      <Route path="/sandhya/projects" element={<Projects />} />
+      <Route path="/sandhya/contact" element={<Contact />} />
+      <Route path="/sandhya/skills" element={<Skills />} />
     </Routes>
   );
 }

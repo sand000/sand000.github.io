@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 
 import emailjs from "@emailjs/browser";
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { useFormik } from "formik";
 import { contactFormSchema } from "../schemas/ContactForm";
 
@@ -36,7 +36,7 @@ function Contact() {
     onSubmit: (values, action) => {
       emailjs
         .send(
-          process.env.REACT_APP_FORM_SERVICE_KEY,
+          process.env.REACT_APP_FORM_SERVICE_KEY, 
           process.env.REACT_APP_FORM_TEMPLATE_KEY,
           values,
           process.env.REACT_APP_FORM_API_KEY
@@ -93,18 +93,19 @@ function Contact() {
             objectFit="fill"
           /> */}
           <Text fontSize="2xl" fontWeight="semibold">
-            Shantilal Patliya
+            Sandhya Kushwaha
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
-            9784102014
+            +91-9399541841
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
-            shantilalpatliya18@gmail.com
+            kushwahasandhya68@gmail.com
           </Text>
 
-          <SimpleGrid columns={[1, 2, 2, 2]} spacing="10px" w="70%">
+          {/* <SimpleGrid columns={[1, 2, 2, 2]} spacing="10px" w="70%"> */}
             <Button
-              onClick={() => window.open("https://wa.me/+919784102014")}
+            width={"150px"}
+              onClick={() => window.open("https://wa.me/+919179826528")}
               colorScheme="whatsapp"
               leftIcon={<FaWhatsapp />}
               fontWeight="semibold"
@@ -114,8 +115,9 @@ function Contact() {
             </Button>
             <Button
               onClick={() =>
-                window.open("https://www.linkedin.com/in/spsanchore13/")
+                window.open("https://www.linkedin.com/in/sandhya-kushwaha-a6b608157/")
               }
+              width={"150px"}
               colorScheme="linkedin"
               leftIcon={<FaLinkedin />}
               fontWeight="semibold"
@@ -123,7 +125,20 @@ function Contact() {
             >
               LinkedIn
             </Button>
-          </SimpleGrid>
+            <Button
+             width={"150px"}
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/sandhya-kushwaha-a6b608157/")
+              }
+              background={"black"}
+               colorScheme="linkedin"
+              leftIcon={<FaGithub />}
+              fontWeight="semibold"
+              letterSpacing="2px"
+            >
+              GitHub
+            </Button>
+          {/* </SimpleGrid> */}
         </VStack>
 
         <VStack

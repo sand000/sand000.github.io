@@ -9,8 +9,8 @@ import {
   useColorMode,
   useMediaQuery,
 } from "@chakra-ui/react";
-import myimg from "../Image/spsanchore.png";
-import myresume from "../Resume/Shantilal_Resume.pdf";
+import myimg from "../Image/sandhya_kushwaha.png";
+import myresume from "../Resume/Sandhya_Kushwaha_Resume.pdf";
 import Typewriter from "typewriter-effect";
 // import { Wave } from "react-animated-text";
 
@@ -41,7 +41,7 @@ function Home() {
             bgGradient="linear(to-r,cyan.400,blue.500,purple.600)"
             bgClip="text"
           >
-            SHANTILAL PATLIYA
+            SANDHYA KUSHWAHA
           </Text>
           {/* <Wave text="SHANTILAL PATLIYA" effect="jump" effectChange={2} /> */}
 
@@ -64,7 +64,7 @@ function Home() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/14Emkc91uy1Xc3bNkX57tLNhaeQmJdS7R/view?usp=share_link"
+                  "https://drive.google.com/file/d/1OhIu7AnClPQ1X5EmcuEVSRjNNxEPPqLY/view?usp=sharing"
                 )
               }
               mt={5}

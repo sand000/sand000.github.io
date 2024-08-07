@@ -20,7 +20,7 @@ function About() {
 
   return (
     <>
-      <Stack id="about" py={10} justify="center" align="center">
+      <Stack id="about" justify="center" align="center">
         <Text fontSize="3xl" align="center" fontWeight="bold">
           ABOUT
         </Text>
@@ -76,9 +76,9 @@ function About() {
                     fontWeight={isDark ? "thin" : "hairline"}
                     letterSpacing="2px"
                   >
-                    computer science and engineering ( b.tech )
+                    Fashion Designing ( B.A )
                   </Text>
-                  <Text color={isDark ? "gray.200" : "gray.500"}>RTU Kota</Text>
+                  <Text color={isDark ? "gray.200" : "gray.500"}>Institute for excellence in higher education Bhopal</Text>
                 </Container>
                 <Container>
                   <Text
@@ -89,7 +89,7 @@ function About() {
                     12 <Text as="sup">th</Text> - PCM
                   </Text>
                   <Text color={isDark ? "gray.200" : "gray.500"}>
-                    GVM Sanchore
+                    Kendriya Vidyalaya Bhopal
                   </Text>
                 </Container>
               </VStack>

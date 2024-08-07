@@ -30,7 +30,7 @@ const States = () => {
         <HStack justify="center" data-aos="fade-up">
           <GitHubCalendar
             transformData={selectLastHalfYear}
-            username="spsanchore13"
+            username="sand000"
           >
             <ReactTooltip delayShow={10} html />
           </GitHubCalendar>
@@ -38,10 +38,10 @@ const States = () => {
       </Flex>
       <Flex gap={10} flexDirection={isSmallerThen ? "column" : "row"}>
         <HStack>
-          <Image src="https://github-readme-streak-stats.herokuapp.com?user=spsanchore13" />
+          <Image src="https://github-readme-streak-stats.herokuapp.com?user=sand000" />
         </HStack>
         <HStack>
-          <Image src="https://github-readme-stats.vercel.app/api?username=spsanchore13" />
+          <Image src="https://github-readme-stats.vercel.app/api?username=sand000" />
         </HStack>
       </Flex>
     </Stack>

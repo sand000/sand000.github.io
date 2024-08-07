@@ -1,11 +1,12 @@
 
-import './App.css';
-import HelloWorld from './component/HelloWorld';
+// import HelloWorld from './component/HelloWorld';
+import "./App.jsx"
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld name="shantilal" />
+      <App/>
+      {/* "joooooo" */}
     </div>
   );
 }

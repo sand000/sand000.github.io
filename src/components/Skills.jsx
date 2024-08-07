@@ -12,8 +12,8 @@ import htmllogo from "../Image/html.png";
 import csslogo from "../Image/css.png";
 import reactlogo from "../Image/react.png";
 import reduxlogo from "../Image/redux.png";
-import jestlogo from "../Image/jest.png";
-import cypresslogo from "../Image/cypress.webp";
+import flutterlogo from "../Image/flutter.png";
+import dartlogo from "../Image/dart.jpg";
 import chakralogo from "../Image/chakralogo.png";
 import figmalogo from "../Image/figma.svg";
 import mongodblogo from "../Image/mongodb.svg";
@@ -229,7 +229,7 @@ function Skills() {
           <Img
             boxSize="80px"
             borderRadius="full"
-            src={cypresslogo}
+            src={dartlogo}
             // src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
           />
           <Text
@@ -238,13 +238,13 @@ function Skills() {
             p="4"
             fontSize="xl"
           >
-            CYPRESS
+            DART
           </Text>
         </Box>
         <Box align="center">
           <Img
             boxSize="80px"
-            src={jestlogo}
+            src={flutterlogo}
             // src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
           />
           <Text
@@ -253,7 +253,7 @@ function Skills() {
             p="4"
             fontSize="xl"
           >
-            JEST
+            FLUTTER
           </Text>
         </Box>
       </SimpleGrid>

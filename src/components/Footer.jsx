@@ -10,7 +10,7 @@ function Footer() {
         fontWeight="semibold"
         letterSpacing="2px"
       >
-        Made with <Icon boxSize="25px" as={FcLike} /> by spsanchore13
+        Made with <Icon boxSize="25px" as={FcLike} /> by Sandhya
       </Text>
     </Stack>
   );

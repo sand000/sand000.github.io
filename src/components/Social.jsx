@@ -8,19 +8,19 @@ function Social() {
         as={FaGithub}
         boxSize="30"
         cursor="pointer"
-        onClick={() => window.open("https://github.com/spsanchore13")}
+        onClick={() => window.open("https://github.com/sand000")}
       />
       <Icon
         as={FaLinkedinIn}
         boxSize="30"
         cursor="pointer"
-        onClick={() => window.open("https://www.linkedin.com/in/spsanchore13/")}
+        onClick={() => window.open("https://www.linkedin.com/in/sandhya-kushwaha-a6b608157/")}
       />
       <Icon
         as={FaGoogle}
         boxSize="30"
         cursor="pointer"
-        onClick={() => window.open("mailto:shantilalpatliya18@gmail.com")}
+        onClick={() => window.open("mailto:kushwahasandhya68@gmail.com")}
       />
     </HStack>
   );

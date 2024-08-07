@@ -9,10 +9,10 @@ import {
   useColorMode,
   VStack,
 } from "@chakra-ui/react";
-import bestbuy1 from "../Image/bestbuy1.png";
-import pharmeasy1 from "../Image/pharmeasy1.png";
-import bathandbody1 from "../Image/bathandbody1.png";
-import bettermart1 from "../Image/bettermart1.png";
+import justBuy from "../Image/justbuy.png";
+import trackingTime from "../Image/trackingtime.png";
+import yoox from "../Image/yoox.png";
+import unsplash from "../Image/unsplash.png";
 
 import { LinkIcon } from "@chakra-ui/icons";
 import { FaGithub } from "react-icons/fa";
@@ -53,27 +53,20 @@ function Projects() {
           borderRadius="10px"
           boxShadow="rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;"
         >
-          <Text fontSize="2xl" fontWeight="semibold" casing="uppercase">
-            BETTRTMART ECOMMERCE
+          <Text fontSize="2xl" fontWeight="semibold">
+          TrackingTime
           </Text>
           <Box className="image-container4">
-            <Img src={bettermart1} alt="img" h="250px" />
+            <Img src={trackingTime} alt="img" h="250px" />
           </Box>
 
           <VStack spacing={3} align="left">
             <Text align="left">
-              Bettermart is an ecommerce platform from that sells dresses shoes
-              and many more things
+            It is a time tracking service that helps organisation of any size manage their projects by tracking work times. My role was to create Sign-up & Login Page's UI/backend, task navbar & timer UI
             </Text>
             <HStack>
-              <Text color="red.400" fontWeight="bold">
-                Text Stack:
-              </Text>
-              <Text>React,</Text>
-              <Text>Redux,</Text>
-              <Text>Chakra-UI,</Text>
-              <Text>Express js,</Text>
-              <Text>Mongo DB</Text>
+              <Text color="red.400" fontWeight="bold">Text Stack:</Text>
+              <Text>React, Redux, Chakra-UI, Node js, Express js, Mongo DB</Text>
             </HStack>
             <Text>Collobarotive project built in 4 day team lead by me</Text>
             <HStack>
@@ -83,7 +76,7 @@ function Projects() {
                 variant="solid"
                 onClick={() =>
                   window.open(
-                    "https://github.com/spsanchore13/spicy-muscle-8472"
+                    "https://github.com/surajkm24/trackingtime.co-clone"
                   )
                 }
               >
@@ -94,7 +87,7 @@ function Projects() {
                 colorScheme="blue"
                 variant="solid"
                 onClick={() =>
-                  window.open("https://bettermart-eight.vercel.app/")
+                  window.open("https://wondrous-stardust-501a11.netlify.app/")
                 }
               >
                 Live
@@ -109,25 +102,22 @@ function Projects() {
           borderRadius="10px"
           boxShadow="rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;"
         >
-          <Text fontSize="2xl" fontWeight="semibold" casing="uppercase">
-            Pharmeasy Clone
+          <Text fontSize="2xl" fontWeight="semibold">
+          JustBuy
           </Text>
           <Box className="image-container2">
-            <Img src={pharmeasy1} alt="img" h="250px" />
+            <Img src={justBuy} alt="img" h="250px" />
           </Box>
 
           <VStack spacing={3} align="left">
             <Text align="left">
-              PharmEasy is an Indian e-pharmacy company that sells medicines,
-              diagnostics and telehealth online.
+            JustBuy is the fashion e-commerce website which offers a trendy collection of apparel based on upbeat designs. It was a group project & my role was to work on Mens & Womens Page's UI as well as Backend.
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
                 Text Stack:
               </Text>
-              <Text>HTML5,</Text>
-              <Text>CSS3,</Text>
-              <Text>JavaScript</Text>
+              <Text>React, Redux, Chakra-UI, Node js, Express js, Mongo DB, Render</Text>
             </HStack>
             <Text>Collobarotive project built in 4 day team lead by me</Text>
             <HStack>
@@ -136,7 +126,7 @@ function Projects() {
                 colorScheme="blue"
                 variant="solid"
                 onClick={() =>
-                  window.open("https://github.com/spsanchore13/naive-cast-183")
+                  window.open("https://github.com/SonaliBhalerao/JustBuy")
                 }
               >
                 Github
@@ -146,7 +136,7 @@ function Projects() {
                 colorScheme="blue"
                 variant="solid"
                 onClick={() =>
-                  window.open("https://naive-cast-183.vercel.app/")
+                  window.open("https://sick-dress-4939-otio.vercel.app/")
                 }
               >
                 Live
@@ -165,18 +155,16 @@ function Projects() {
             align="left"
             fontSize="2xl"
             fontWeight="semibold"
-            casing="uppercase"
           >
-            Bestbuy Clone
+            YOOX Clone
           </Text>
           <Box className="image-container1" h="250px">
-            <Img src={bestbuy1} alt="img" />
+            <Img src={yoox} alt="img" />
           </Box>
 
           <VStack spacing={3} align="left">
             <Text align="left">
-              Best Buy Co. Inc. is an American multinational consumer
-              electronics retailer
+            YOOX is an Italian e-commerce website for fashion & art products. It was an individual project where I've used HTML, CSS and JavaScript. Some of the features like Signup, Add to cart, Shipping address and Payment Page are there.
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
@@ -195,7 +183,7 @@ function Projects() {
                 colorScheme="blue"
                 variant="solid"
                 onClick={() =>
-                  window.open("https://github.com/Therobo77/BESTBUY.COM")
+                  window.open("https://github.com/sand000/yoox-individual-project-")
                 }
               >
                 Github
@@ -204,7 +192,7 @@ function Projects() {
                 leftIcon={<LinkIcon />}
                 colorScheme="blue"
                 variant="solid"
-                onClick={() => window.open("https://bestbuy-alpha.vercel.app/")}
+                onClick={() => window.open("https://idyllic-salamander-71880c.netlify.app/")}
               >
                 Live
               </Button>
@@ -219,26 +207,25 @@ function Projects() {
           borderRadius="10px"
           boxShadow="rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;"
         >
-          <Text fontSize="2xl" fontWeight="semibold" casing="uppercase">
-            Bathandbodyworks Clone
+          <Text fontSize="2xl" fontWeight="semibold">
+          Unsplash Clone
           </Text>
           <Box className="image-container3" h="250px">
-            <Img src={bathandbody1} alt="img" />
+            <Img src={unsplash} alt="img" />
           </Box>
 
           <VStack spacing={3} align="left">
             <Text align="left">
-              Bathandbodyworks is an bodycare and fragrance product website
+            It is a free high-resolution HD images website. A collaborative project with total of five members. It was my first project since I started learning coding. It was really exciting to build which we see on websites.
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
                 Text Stack:
               </Text>
-              <Text>React,</Text>
+              <Text>HTML,</Text>
 
-              <Text>Chakra-Ui,</Text>
+              <Text>CSS</Text>
 
-              <Text>Json-Server</Text>
             </HStack>
             <Text>Solo project built in 4 day by me</Text>
             <HStack>
@@ -248,7 +235,7 @@ function Projects() {
                 variant="solid"
                 onClick={() =>
                   window.open(
-                    "https://github.com/spsanchore13/protective-recess-3139"
+                    "https://github.com/sand000/clone-unsplash"
                   )
                 }
               >
@@ -259,7 +246,7 @@ function Projects() {
                 colorScheme="blue"
                 variant="solid"
                 onClick={() =>
-                  window.open("https://protective-recess-3139.vercel.app/")
+                  window.open("https://papaya-cannoli-e9274a.netlify.app/")
                 }
               >
                 Live

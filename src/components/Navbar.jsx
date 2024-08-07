@@ -22,7 +22,7 @@ import Social from "./Social";
 import { Link } from "react-scroll";
 import { useRef } from "react";
 import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
-import myresume from "../Resume/Shantilal_Resume.pdf";
+import myresume from"../Resume/Sandhya_Kushwaha_Resume.pdf";
 
 function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -121,7 +121,7 @@ function Navbar() {
               <Button
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/14Emkc91uy1Xc3bNkX57tLNhaeQmJdS7R/view?usp=share_link"
+                    "https://drive.google.com/file/d/1OhIu7AnClPQ1X5EmcuEVSRjNNxEPPqLY/view?usp=sharing"
                   )
                 }
                 mt={5}
