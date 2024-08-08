@@ -10,7 +10,7 @@ import {
   useMediaQuery,
 } from "@chakra-ui/react";
 import myimg from "../Image/sandhya_kushwaha.png";
-import myresume from "../Resume/Sandhya_Kushwaha_Resume.pdf";
+import myresume from "../Resume/SandhyaKushwaha_fw16_644.pdf";
 import Typewriter from "typewriter-effect";
 // import { Wave } from "react-animated-text";
 
@@ -64,7 +64,7 @@ function Home() {
             <Button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1OhIu7AnClPQ1X5EmcuEVSRjNNxEPPqLY/view?usp=sharing"
+                  "https://drive.google.com/file/d/19-Is8IKMyBcaerJ7AR_b_GbvYYZmIjqD/view?usp=sharing"
                 )
               }
               mt={5}
