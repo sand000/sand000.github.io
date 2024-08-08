@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.18d645bf.css",
-    "main.js": "/static/js/main.88a7ab72.js",
+    "main.js": "/static/js/main.c618c69d.js",
     "static/media/unsplash.png": "/static/media/unsplash.ceeacba2aa59da305173.png",
     "static/media/yoox.png": "/static/media/yoox.4f6c95d4d3e9f864d9bb.png",
     "static/media/justbuy.png": "/static/media/justbuy.ca25107914daca1287c9.png",
+    "static/media/SandhyaKushwaha_fw16_644.pdf": "/static/media/SandhyaKushwaha_fw16_644.06edb40de85d25354788.pdf",
     "static/media/redux.png": "/static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/dsa.png": "/static/media/dsa.fbf8bafb4c7b2b7c9c7c.png",
     "static/media/sandhya_kushwaha.png": "/static/media/sandhya_kushwaha.28f803d1c491f0e0b2da.png",
-    "static/media/Sandhya_Kushwaha_Resume.pdf": "/static/media/Sandhya_Kushwaha_Resume.b84059db89f8adef076a.pdf",
     "static/media/trackingtime.png": "/static/media/trackingtime.8dc53bc600e81cb016d5.png",
     "static/media/chakralogo.png": "/static/media/chakralogo.6d4684d36d618b85afe2.png",
     "static/media/css.png": "/static/media/css.1a57e67ac1fd2ea84d64.png",
@@ -21,10 +21,10 @@
     "index.html": "/index.html",
     "static/media/js.svg": "/static/media/js.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.18d645bf.css.map": "/static/css/main.18d645bf.css.map",
-    "main.88a7ab72.js.map": "/static/js/main.88a7ab72.js.map"
+    "main.c618c69d.js.map": "/static/js/main.c618c69d.js.map"
   },
   "entrypoints": [
     "static/css/main.18d645bf.css",
-    "static/js/main.88a7ab72.js"
+    "static/js/main.c618c69d.js"
   ]
 }
