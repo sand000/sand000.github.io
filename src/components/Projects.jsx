@@ -65,7 +65,7 @@ function Projects() {
             It is a time tracking service that helps organisation of any size manage their projects by tracking work times. My role was to create Sign-up & Login Page's UI/backend, task navbar & timer UI
             </Text>
             <HStack>
-              <Text color="red.400" fontWeight="bold">Text Stack:</Text>
+              <Text color="red.400" fontWeight="bold">Tech Stack:</Text>
               <Text>React, Redux, Chakra-UI, Node js, Express js, Mongo DB</Text>
             </HStack>
             <Text>Collobarotive project built in 4 day team lead by me</Text>
@@ -115,7 +115,7 @@ function Projects() {
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
-                Text Stack:
+                Tech Stack:
               </Text>
               <Text>React, Redux, Chakra-UI, Node js, Express js, Mongo DB, Render</Text>
             </HStack>
@@ -168,7 +168,7 @@ function Projects() {
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
-                Text Stack:
+              Tech Stack:
               </Text>
               <Text>HTML5,</Text>
 
@@ -220,7 +220,7 @@ function Projects() {
             </Text>
             <HStack>
               <Text color="red.400" fontWeight="bold">
-                Text Stack:
+              Tech Stack:
               </Text>
               <Text>HTML,</Text>
 
